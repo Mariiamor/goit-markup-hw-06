@@ -29,7 +29,7 @@
     <header class="header-container">
       <div class="container header-container-content">
         <nav class="nav-list">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo header-logo"
             >Web<span class="accent">Studio</span></a
           >
           <ul class="header-list">
@@ -49,21 +49,26 @@
             </li>
             <li>
               <a href="tel:+110001111111" class="mailto">
-                +11 (000) 111-11-11</a
-              >
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burgermenu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="baner">
+      <section class="baner hidden">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="baner-button">Order Service</button>
         </div>
       </section>
-      <section class="directions">
+      <section class="directions hidden">
         <div class="container">
           <h2 class="visually-hidden">SPDT</h2>
           <ul class="dir-list">
@@ -118,7 +123,7 @@
           </ul>
         </div>
       </section>
-      <section class="team-baner">
+      <section class="team-baner hidden">
         <div class="container">
           <h2 class="titletwo">Our Team</h2>
           <ul class="team-list-content">
@@ -359,7 +364,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="titletwo">Our Portfolio</h2>
           <ul class="port-content">
@@ -481,7 +486,7 @@
         </div>
       </section>
     </main>
-    <footer class="down">
+    <footer class="down hidden">
       <div class="footer-container container">
         <div class="footer-right">
           <a href="./index.html" class="logo footer-logo">
@@ -568,7 +573,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="input-close" width="8" height="8">
