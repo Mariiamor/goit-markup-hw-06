@@ -60,15 +60,96 @@
           </svg>
         </button>
       </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-contaier">
+          <button class="mobile-menu-close" type="button">
+            <svg class="input-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-closeinpute"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="./index.html" class="mobile-menu-link active"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="" class="mobile-menu-link">Portfolio</a></li>
+              <li><a href="" class="mobile-menu-link">Contacts</a></li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="mobile-menu-address-list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-menu-mailto"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-menu-mailto">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-links">
+            <li class="links-list">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="social-link"
+              >
+                <svg class="social-icons" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="links-list">
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="social-link"
+              >
+                <svg class="social-icons" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="links-list">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-link"
+              >
+                <svg class="social-icons" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="links-list">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="social-link"
+              >
+                <svg class="social-icons" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="baner hidden">
+      <section class="baner">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="baner-button">Order Service</button>
         </div>
       </section>
-      <section class="directions hidden">
+      <section class="directions">
         <div class="container">
           <h2 class="visually-hidden">SPDT</h2>
           <ul class="dir-list">
@@ -123,7 +204,7 @@
           </ul>
         </div>
       </section>
-      <section class="team-baner hidden">
+      <section class="team-baner">
         <div class="container">
           <h2 class="titletwo">Our Team</h2>
           <ul class="team-list-content">
@@ -135,8 +216,8 @@
                 height="260"
               />
               <div class="dir-name">
-                <h3 class="dir">Mark Guerrero</h3>
-                <p class="dir-text">Product Designer</p>
+                <h3 class="dir-team">Mark Guerrero</h3>
+                <p class="dir-text-team">Product Designer</p>
 
                 <ul class="social-links">
                   <li class="links-list">
@@ -194,8 +275,8 @@
                 height="260"
               />
               <div class="dir-name">
-                <h3 class="dir">Tom Ford</h3>
-                <p class="dir-text">Frontend Developer</p>
+                <h3 class="dir-team">Tom Ford</h3>
+                <p class="dir-text-team">Frontend Developer</p>
 
                 <ul class="social-links">
                   <li class="links-list">
@@ -253,8 +334,8 @@
                 height="260"
               />
               <div class="dir-name">
-                <h3 class="dir">Camila Garcia</h3>
-                <p class="dir-text">Marketing</p>
+                <h3 class="dir-team">Camila Garcia</h3>
+                <p class="dir-text-team">Marketing</p>
                 <ul class="social-links">
                   <li class="links-list">
                     <a
@@ -311,8 +392,8 @@
                 height="260"
               />
               <div class="dir-name">
-                <h3 class="dir">Daniel Wilson</h3>
-                <p class="dir-text">UI Designer</p>
+                <h3 class="dir-team">Daniel Wilson</h3>
+                <p class="dir-text-team">UI Designer</p>
                 <ul class="social-links">
                   <li class="links-list">
                     <a
@@ -364,7 +445,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio hidden">
+      <section class="portfolio">
         <div class="container">
           <h2 class="titletwo">Our Portfolio</h2>
           <ul class="port-content">
@@ -383,8 +464,8 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Banking App</h3>
-                <p class="dir-text">App</p>
+                <h3 class="dir-team">Banking App</h3>
+                <p class="dir-text-team">App</p>
               </div>
             </li>
             <li class="port-list">
@@ -402,8 +483,8 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Cashless Payment</h3>
-                <p class="dir-text">Marketing</p>
+                <h3 class="dir-team">Cashless Payment</h3>
+                <p class="dir-text-team">Marketing</p>
               </div>
             </li>
             <li class="port-list">
@@ -421,8 +502,8 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Meditation App</h3>
-                <p class="dir-text">App</p>
+                <h3 class="dir-team">Meditation App</h3>
+                <p class="dir-text-team">App</p>
               </div>
             </li>
             <li class="port-list">
@@ -440,8 +521,8 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Taxi Service</h3>
-                <p class="dir-text">Marketing</p>
+                <h3 class="dir-team">Taxi Service</h3>
+                <p class="dir-text-team">Marketing</p>
               </div>
             </li>
             <li class="port-list">
@@ -459,8 +540,8 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Screen Illustrations</h3>
-                <p class="dir-text">Design</p>
+                <h3 class="dir-team">Screen Illustrations</h3>
+                <p class="dir-text-team">Design</p>
               </div>
             </li>
             <li class="port-list">
@@ -478,15 +559,15 @@
                 </p>
               </div>
               <div class="dir-app">
-                <h3 class="dir">Online Courses</h3>
-                <p class="dir-text">Marketing</p>
+                <h3 class="dir-team">Online Courses</h3>
+                <p class="dir-text-team">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="down hidden">
+    <footer class="down">
       <div class="footer-container container">
         <div class="footer-right">
           <a href="./index.html" class="logo footer-logo">
